@@ -1,6 +1,6 @@
 {
     "definition": {
-        "createdDate": "2020-10-14 19:42:12.059658",
+        "createdDate": "2020-10-15 21:29:37.121355",
         "fields": [
             {
                 "displayName": "",
@@ -35,15 +35,15 @@
         "sfdc": {
             "configuration": [
                 {
-                    "level": "organization",
+                    "level": "account",
                     "type": "addToDocumentation"
                 },
                 {
-                    "level": "organization",
+                    "level": "account",
                     "type": "inherit"
                 },
                 {
-                    "level": "organization",
+                    "level": "account",
                     "properties": {
                         "fromVendor": false,
                         "toVendor": false
@@ -55,9 +55,9 @@
             "fields": [
                 {
                     "level": "organization",
-                    "path": "desc",
+                    "path": "id",
                     "type": "string",
-                    "vendorPath": "Description"
+                    "vendorPath": "Id"
                 },
                 {
                     "level": "organization",
@@ -67,15 +67,15 @@
                 },
                 {
                     "level": "organization",
-                    "path": "lastModifiedDate",
+                    "path": "desc",
                     "type": "string",
-                    "vendorPath": "LastModifiedDate"
+                    "vendorPath": "Description"
                 },
                 {
                     "level": "organization",
-                    "path": "id",
+                    "path": "lastModifiedDate",
                     "type": "string",
-                    "vendorPath": "Id"
+                    "vendorPath": "LastModifiedDate"
                 }
             ],
             "isLegacy": false,
