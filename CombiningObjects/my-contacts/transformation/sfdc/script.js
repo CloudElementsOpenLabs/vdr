@@ -4,6 +4,7 @@ if (fromVendor) {
 
   const ax = axios.create({
     baseURL: `${configuration.protocol}://${configuration.host}${configuration.pathPrefix}`,
+    timeout: 5000,
     headers: {
       "accept": "application/json",
       "Authorization": `User ${configuration.userSecret}, Organization ${configuration.organizationSecret}, Element ${configuration.elementInstanceToken}`
