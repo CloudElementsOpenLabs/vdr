@@ -28,14 +28,14 @@ if (fromVendor) {
       targetField: "activities",
       config: {
         url: `/my-contacts/${transformedObject.id}/my-contact-activities`,
-        method: "get", // default
+        method: "get" // default
       }
     },
     {
       targetField: "notes",
       config: {
         url: `/my-contacts/${transformedObject.id}/my-contact-notes`,
-        method: "get",
+        method: "get"
       }
     }
   ];

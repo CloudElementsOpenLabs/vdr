@@ -1,15 +1,15 @@
 {
     "configuration": [
         {
-            "level": "organization",
+            "level": "account",
             "type": "addToDocumentation"
         },
         {
-            "level": "organization",
+            "level": "account",
             "type": "inherit"
         },
         {
-            "level": "organization",
+            "level": "account",
             "properties": {
                 "fromVendor": false,
                 "toVendor": false
@@ -21,9 +21,9 @@
     "fields": [
         {
             "level": "organization",
-            "path": "lastModifiedDate",
+            "path": "createdDate",
             "type": "string",
-            "vendorPath": "LastModifiedDate"
+            "vendorPath": "CreatedDate"
         },
         {
             "level": "organization",
@@ -45,9 +45,9 @@
         },
         {
             "level": "organization",
-            "path": "createdDate",
+            "path": "lastModifiedDate",
             "type": "string",
-            "vendorPath": "CreatedDate"
+            "vendorPath": "LastModifiedDate"
         }
     ],
     "isLegacy": false,

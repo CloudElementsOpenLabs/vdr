@@ -73,9 +73,23 @@
             "fields": [
                 {
                     "level": "organization",
+                    "path": "email",
+                    "type": "string",
+                    "vendorPath": "Email",
+                    "vendorType": "string"
+                },
+                {
+                    "level": "organization",
                     "path": "lastModifiedDate",
                     "type": "string",
                     "vendorPath": "LastModifiedDate",
+                    "vendorType": "string"
+                },
+                {
+                    "level": "organization",
+                    "path": "createdDate",
+                    "type": "string",
+                    "vendorPath": "CreatedDate",
                     "vendorType": "string"
                 },
                 {
@@ -90,20 +104,6 @@
                     "path": "id",
                     "type": "string",
                     "vendorPath": "Id",
-                    "vendorType": "string"
-                },
-                {
-                    "level": "organization",
-                    "path": "email",
-                    "type": "string",
-                    "vendorPath": "Email",
-                    "vendorType": "string"
-                },
-                {
-                    "level": "organization",
-                    "path": "createdDate",
-                    "type": "string",
-                    "vendorPath": "CreatedDate",
                     "vendorType": "string"
                 }
             ],
